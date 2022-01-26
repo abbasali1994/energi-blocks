@@ -8,7 +8,6 @@ export const triggerBlockRequest = async () => {
     } = store.getState();
     if (triggerRequest) {
         const newBlockNumber = await getCurrentBlockNumber();
-        console.log(newBlockNumber, currentBlock)
         if (newBlockNumber !== currentBlock) {
             store.dispatch(setRequestInProgress(true));
             store.dispatch(setCurrentBlock(newBlockNumber));

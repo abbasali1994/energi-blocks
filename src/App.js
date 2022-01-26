@@ -1,10 +1,10 @@
 import { Box, Grid, ToggleButton } from "@mui/material";
-
+import { useSelector } from "react-redux";
 import "./App.css";
 
 import TransactionTable from "./components/TransactionsTable";
 import BlockTable from "./components/BlockTable";
-import { useSelector } from "react-redux";
+
 import { setTriggerRequest, triggerRequest } from "./redux/blocksSlice";
 import store from "./store";
 
@@ -32,7 +32,6 @@ const App = () => {
           </ToggleButton>
         </Grid>
       </Grid>
-
       <BlockTable />
       <br />
       <TransactionTable />
