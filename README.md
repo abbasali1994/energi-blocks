@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Project features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The link displays Latest block data for NRG mainnet network.\
+The site keeps on updating data with new blocks unless the request trigger is stopped by clicking button at the top right.\
+All transactions are displayed in tabular format with various filter and sorting options avaliable in the columns section of the table.\
 
 ## Available Scripts
 
@@ -28,9 +30,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Project features
-
-The link displays Latest block data for NRG mainnet network
-The site keeps on updating data with new blocks unless the request trigger is stopped by clicking button at the top right
-All transactions are displayed in tabular format with various filter and sorting options avaliable in the columns section of the table
